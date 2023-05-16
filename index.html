@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewHome</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">NewHome</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="http://www.google.com" target="_blank">Properties</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>부동산거래부터 <br>감정평가 가격까지<br> 한눈에!</h1>
+                <p>NewHome에서는 나에게 꼭 맞는 방을 찾아드립니다!<br>
+                감정평가 가격과 실거래가를 비교하는 서비스를 제공해드립니다.<br>
+                AI계약서 리스크 분석 서비스를 통해 사기예방을 할 수 있습니다.<br>
+                실제 거주한 사람들의 상세한 집 리뷰를 확인해보세요!
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>NewHome 사용 가이드</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>집 구하기 / 집 팔기</h4>
+                    <p>적은 수수료로 집을 구하고 팔아보세요.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>나의 집 감정평가 가격은?</h4>
+                    <p>감정평가가격와 실거래가를 함께 비교해보세요.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>AI계약서 리스크 분석 서비스</h4>
+                    <p>부동산 사기를 예방하기 위해 AI계약서 리스크 분석 서비스를 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="https://toanhuyhoang.com/wp-content/uploads/2022/06/can-ho-cao-cap-azura-da-nang.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">전세가 6000만원</p>
+                        <span class="beds">방 2개</span>
+                        <span class="baths">화장실 1개</span>
+                        <span class="sqft">15평</span>
+                        <address>
+                           서울특별시 도봉구 방학동
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="http://www.soneroom.com/wp-content/uploads/2020/06/20200603_004531-768x576.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">월세 60만원</p>
+                        <span class="beds">방 1개</span>
+                        <span class="baths">화장실 1개</span>
+                        <span class="sqft">6평</span>
+                        <address>
+                            서울특별시 마포구 성산동
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://i0.wp.com/www.gangnamoneroom.com/wp-content/uploads/2022/12/20221222_171053_HDR.jpg?resize=480%2C360" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">매매 2억</p>
+                        <span class="beds">방 2개</span>
+                        <span class="baths">화장실 2개</span>
+                        <span class="sqft">20평</span>
+                        <address>
+                            서울특별시 성북구 정릉3동
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://cdn.ggumim.co.kr/cache/star/600/20210908142906sJrf1tiLuc.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">급매! 매매가 1억</p>
+                        <span class="beds">방 1개</span>
+                        <span class="baths">화장실 1개</span>
+                        <span class="sqft">10평</span>
+                        <address>
+                            서울특별시 용산구 후암동
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://cdn.ggumim.co.kr/cache/star/600/201706191618541DkTEFydFe.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">월세 80만원</p>
+                        <span class="beds">방 4개</span>
+                        <span class="baths">화장실 2개</span>
+                        <span class="sqft">반지하24평</span>
+                        <address>
+                            서울특별시 강남구 역삼동
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <button class="rounded">매물 더 보기</button>
+        </div>
+    </section>
+
+    <section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            <p class="large-paragraph">인기 공인중개사와 감정평가법인을 소개해드립니다.</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5LESq_8HNK6p19R-3aDJIWIfGHqHJPClXLA&usqp=CAU" alt="Realtor 1" />
+                    <h3>산정부동산</h3>
+                    <p>공인중개사 김성훈</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://img.khan.co.kr/news/2018/09/14/l_2018091501001753200139691.jpg" alt="Realtor 1" />
+                    <h3>용산부동산</h3>
+                    <p>공인중개사 김정숙</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://res.heraldm.com/content/image/2022/12/19/20221219000076_0.jpg" alt="Realtor 1" />
+                    <h3>안심부동산</h3>
+                    <p>공인중개사 김민아</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbi2Hn_p_UcxirMMGGcL7ZJ7up6T9cpVsBbw&usqp=CAU" alt="Realtor 1" />
+                    <h3>제일감정평가법인</h3>
+                    <p>평가사 정창운</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://kosal.co.kr/wp-content/uploads/2015/07/kosal.png" alt="Realtor 1" />
+                    <h3>대한감정평가법인</h3>
+                    <p>평가사 윤하림</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbloMoeQjm9SMM4zLX1YRE5HyrvbRMbfB5eg&usqp=CAU" alt="Realtor 1" />
+                    <h3>금호감정평가법인</h3>
+                    <p>평가사 정하나</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="the-best">
+        <div class="flex container">
+            <img src="https://images.chosun.com/resizer/4FcEFE6aLtbGmrZw6zrh4JqiaqY=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/HS5BJM4OHVAMXKR2NBFO5KWO3A.jpg" alt="Property 1" />
+            <div>
+                <h2>NewHome</h2>
+                <p class="large-paragraph">NewHome은 최고의 부동산 소개 사이트입니다.</p><br><br><br>
+                <p>NewHome이 지원하는 서비스는 다음과 같습니다.</p>
+                <ul>
+                    <li>공인중개사, 감정평가법인 연결</li>
+                    <li>AI 계약서 리스크 분석 서비스</li>
+                    <li>적은 수수료로 집 구하기, 집 팔기</li>
+                    <li>실제 거주자의 상세한 집 리뷰 제공</li>
+                    <li>부동산 관련 팁 제시</li>
+                </ul>
+                <button class="rounded">더 알아보기</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="services-card-right">
+                        <h3>매물 검색</h3>
+                        <p>원룸, 투룸, 쓰리룸, 오피스텔, 아파트 등 다양한 매물을 검색해보세요.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>매매 하기</h3>
+                        <p>빠른 시일 내에 매매가 이루어질 수 있도록 도와드리겠습니다.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="services-card-right">
+                        <h3>AI 계약서 리스크 분석</h3>
+                        <p>전세사기 예방을 위해 계약서를 업로드하시면 리스크를 분석해드립니다.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-building"></div>
+                    <div class="services-card-right">
+                        <h3>고객지원</h3>
+                        <p>자주묻는 질문을 확인해보세요.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-search"></div>
+                    <div class="services-card-right">
+                        <h3>주소 찾기</h3>
+                        <p>원하는 지역을 검색해보세요!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="services-card-right">
+                        <h3>NewHome App</h3>
+                        <p>NewHome 앱을 사용해보세요.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>살아본 사람들의 리뷰를 확인해보세요!</h2>
+            <div id="testimonials-slider">
+                <div>
+                    <blockquote>
+                        <p>"장점은 분리형 원룸으로 방/주방/욕실/옥상까지 사용 가능하며 남산타워뷰 옥상으로 루프탑으로 꾸며 사용하기에 좋아요
+                            근데 주차가 불가능하고 공간활용이 좀 어려워요."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1941/1941497.png" alt="Client 7" />
+                        <p>애지앙아파트</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"주차장이 깊고 길게 되어있는 구조여서 제일 끝쪽에 주차하면 아침에 출차하기가 불편해요. 화장실 내부 거울 위치가 불편해요."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnsPyLmnEtmRQ3bgKMW4lcU-4EUQId6B09BQ&usqp=CAU" alt="Client 7" />
+                        <p>귀빈빌라</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"내부 올수리를 해서 매우 깨끗합니다. 하지만 채광이 안좋은게 제일 아쉬운 부분입니다."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnsPyLmnEtmRQ3bgKMW4lcU-4EUQId6B09BQ&usqp=CAU" alt="Client 7" />
+                        <p>훼미리빌</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact form</h3>
+                    <form>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">이메일</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">분야</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">메세지</label>
+                        <textarea id="message">상담내용을 적어주세요.</textarea>
+
+                        <button class="rounded">전송하기</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        서울특별시 용산구 청파로47길 100 
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">010-xxxx-xxxx</a>
+
+                    <label>Email Address</label>
+                    <a href="#">skybrightblue1@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About NewHome</h5>
+                <p>NewHome은 2023년에 설립되었습니다.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>NewHome의 소식을 받아보세요</h5>
+                <div id="subscribe-container">
+                    <input type="text" placeholder="이메일 또는 전화번호를 입력하세요" />
+                    <button class="right-rounded">Send</button>
+                </div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright &copy; 2023 All rights reserved | Made by Yeji Kim
+        </small>
+    </footer>
+
+    <script>
+        $(function () {
+            let headerElem = $('header');
+            let logo = $('#logo');
+            let navMenu = $('#nav-menu');
+            let navToggle = $('#nav-toggle');
+
+           $('#properties-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+                nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+                responsive: [
+                    {
+                        breakpoint: 1100,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 530,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    }
+                ]
+           });
+
+           $('#testimonials-slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<a href="#" class="slick-arrow slick-prev"><</a>',
+                nextArrow: '<a href="#" class="slick-arrow slick-next">></a>'
+           });
+
+           navToggle.on('click', () => {
+               navMenu.css('right', '0');
+           });
+
+           $('#close-flyout').on('click', () => {
+                navMenu.css('right', '-100%');
+           });
+
+           $(document).on('click', (e) => {
+               let target = $(e.target);
+               if (!(target.closest('#nav-toggle').length > 0 || target.closest('#nav-menu').length > 0)) {
+                   navMenu.css('right', '-100%');
+               }
+           });
+
+           $(document).scroll(() => {
+               let scrollTop = $(document).scrollTop();
+
+               if (scrollTop > 0) {
+                   navMenu.addClass('is-sticky');
+                   logo.css('color', '#000');
+                   headerElem.css('background', '#fff');
+                   navToggle.css('border-color', '#000');
+                   navToggle.find('.strip').css('background-color', '#000');
+               } else {
+                   navMenu.removeClass('is-sticky');
+                   logo.css('color', '#fff');
+                   headerElem.css('background', 'transparent');
+                   navToggle.css('bordre-color', '#fff');
+                   navToggle.find('.strip').css('background-color', '#fff');
+               }
+
+               headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
+           });
+
+           $(document).trigger('scroll');
+        });
+    </script>
+</body>
+</html>
